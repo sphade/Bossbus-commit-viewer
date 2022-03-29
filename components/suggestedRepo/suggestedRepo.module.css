@@ -1,0 +1,13 @@
+.suggestedRepo {
+  background-color: #3e4462;
+  padding: 0.1rem 1rem;
+  border-radius: 5px;
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.suggestedRepo > h1 {
+  color: white;
+}

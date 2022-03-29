@@ -1,0 +1,59 @@
+.input {
+  background-color: rgb(212, 211, 211);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 700px;
+  margin-right: 2rem;
+  overflow: hidden;
+  padding: 0 1rem;
+  padding: 1rem 3rem;
+  
+}
+
+.input > input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+ padding: 0 2rem;
+
+}
+
+.btn {
+  background-color: tomato;
+  border: none;
+  padding: 1rem 3rem;
+  color: white;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+  
+}
+
+@media (max-width: 1000px) {
+  .btn {
+  width: 100%;
+    
+  }
+  .input {
+   margin-right: 0;
+   margin-bottom: 2rem;
+    
+  }
+  
+.searchBar {
+
+ flex-wrap: wrap;
+}
+}

@@ -1,0 +1,71 @@
+.CommitItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ margin-bottom: 3rem;
+padding: 0 2rem;
+
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.avatar > p {
+  font-size: 3rem;
+}
+.avatarPic {
+  background-color: rgb(212, 206, 206);
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.commitMes {
+  font-size: 2rem;
+  font-weight: 100;
+margin-left: 6rem;
+
+ 
+}
+
+.commitTime{
+    
+  font-size: 2rem;
+ 
+
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 1000px) {
+  .left{
+    flex-direction: column-reverse;
+  align-items: stretch;
+   
+
+  }
+  .avatar {
+   
+    flex-direction: row;
+    align-items: center;
+    
+  }
+}
+
+@media (max-width: 600px) {
+  .avatarPic {
+    background-color: rgb(212, 206, 206);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+  }
+  .avatar > p {
+    font-size: 2/5rem;
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,48 @@
+.commitsHeader {
+  display: flex;
+  padding: 3.8rem 0;
+  background-color: rgb(236, 236, 243);
+  align-items: center;
+}
+
+.commitsHeader > h1 {
+  margin-right: 2rem;
+  cursor: pointer;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+  margin-left: 10rem;
+  text-align: center;
+}
+
+.repoTitle {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.commitItemContainer {
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .commitsHeader {
+    display: flex;
+    justify-content: center;
+  }
+  .commiyInput {
+    display: none;
+  }
+  .commitsHeader > h1 {
+    margin-right: 0rem;
+  margin-left: 0rem;
+
+  }
+}
