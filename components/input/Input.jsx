@@ -32,7 +32,7 @@ export default function Input() {
         <input
           placeholder="Eg. facebook/react"
           type="text"
-          value={repo}
+          value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
       </div>
